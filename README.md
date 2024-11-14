@@ -6,6 +6,8 @@ An interactive CUDA Mandelbrot set explorer, runs on Windows and Linux.
 ![Section from a regular Mandelbrot set](https://i.imgur.com/ncQQbIC.png)
 !["Burning Ship" set](https://i.imgur.com/DA7njWK.png)
 
+### [Full Gallery Link (includes animations)](https://imgur.com/a/CawqcBK)
+
 ## Dependencies
 * Windows: Visual Studio 2022
 * Linux: C++11 compatible compiler
