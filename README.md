@@ -7,10 +7,10 @@ An interactive CUDA Mandelbrot set explorer, runs on Windows and Linux.
 !["Burning Ship" set](https://i.imgur.com/DA7njWK.png)
 
 ## Dependencies
-* Windows: Visual Studio 2013 (other versions untested)
+* Windows: Visual Studio 2022
 * Linux: C++11 compatible compiler
-* CUDA 7.0 or higher
-* GPU with Compute Capability 3.0 (Kepler, GTX 6xx) or higher
+* CUDA 7 or higher, VS project requires CUDA 12.6 because of the hardcoded property sheet names but could easily be search & replaced
+* GPU with Compute Capability 5.0 (Maxwell) or higher
 
 ## Help
 

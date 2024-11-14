@@ -3,9 +3,6 @@
 #ifdef _WIN32
     #if _MSC_VER
         #define _CRT_SECURE_NO_WARNINGS
-        #define snprintf sprintf_s
-        #define fprintf fprintf_s
-        #define fscanf fscanf_s
     #endif
 #else
     #define VK_ESCAPE 27
@@ -36,6 +33,11 @@
 #include "cmdline_parser.h"
 #include "bmp_output.h"
 
+#if _MSC_VER
+#define snprintf sprintf_s
+#define fprintf fprintf_s
+#define fscanf fscanf_s
+#endif
 
 static void DrawResultAccumulateLanczos();
 static void DrawHUD();

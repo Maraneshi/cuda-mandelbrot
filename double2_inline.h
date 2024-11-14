@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector_types.h>
-#include <host_defines.h>
+#include <cuda_runtime.h>
 
 // operators & functions for double2
 

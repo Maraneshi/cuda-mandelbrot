@@ -1,8 +1,5 @@
 #if _MSC_VER
 #define _CRT_SECURE_NO_WARNINGS
-#define snprintf sprintf_s
-#define fprintf fprintf_s
-#define fscanf fscanf_s
 #endif
 
 #include <cstdio>
@@ -12,6 +9,12 @@
 
 #include "kernel.h"
 #include "cmdline_parser.h"
+
+#if _MSC_VER
+#define snprintf sprintf_s
+#define fprintf fprintf_s
+#define fscanf fscanf_s
+#endif
 
 // TODO:
 // this system isn't too bad to use, but error checking is not one of its strengths

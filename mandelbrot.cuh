@@ -1,5 +1,5 @@
+#include <cuda_runtime.h>
 #include <vector_functions.hpp>
-#include <device_functions.hpp>
 #include "helper_math.h"
 #include "double2_inline.h"
 #include <limits>

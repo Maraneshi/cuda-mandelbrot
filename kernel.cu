@@ -1,6 +1,5 @@
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h>
-#include <math_functions.h>
 #include <stdint.h>
 #include <stdio.h>
 

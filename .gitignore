@@ -1,11 +1,12 @@
-*/Debug
-*/Release
-*/x64
+Debug/
+Release/
+x64/
 *.sdf
 *.suo
 *.hmi
 *.user
 *.pdb
+.vs/
 
 /bin
 
